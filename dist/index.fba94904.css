@@ -1,0 +1,23 @@
+#wrapper {
+  background-color: #212931;
+  background-image: url("overlay.d48721e9.png"), linear-gradient(0deg, #0000001a, #0000001a), url("bg.f22c7fe3.jpg");
+  background-position: center, center, top;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-size: auto, auto, 100%;
+  background-attachment: fixed, fixed, fixed;
+}
+
+#wrapper.fade-in:before {
+  display: none;
+}
+
+body.is-preload #intro {
+  opacity: 1;
+}
+
+body.is-preload #intro:not(.hidden) + #header + #nav {
+  opacity: 1;
+  transform: none;
+}
+
+/*# sourceMappingURL=index.fba94904.css.map */
